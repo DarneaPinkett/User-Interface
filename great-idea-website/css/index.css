@@ -65,9 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-nav {
+* {
 	text-align: center;
+	
 }
+
 
 h1 {
 	text-align: center;
@@ -77,24 +79,26 @@ h1 {
 	margin: 10px;
 }
 
-.logo {
-	text-align: right;
-	display: inline-block;
-}
 
 #Title {
 	text-align: center;
 	padding: 10px;
 }
 
-section img {
-	margin: 20px 0;
-	width: 100%;
+.middle-img {
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	border: 2px solid red;
+	width: 75%;
 }
+
 
 .topright {
 	display: inline-block;
 	width: 45%;
+	padding: 40px;
+	text-align: left;
 }
 
 .topleft {
@@ -106,6 +110,7 @@ section img {
 	display: inline-block;
 	width: 30%;
 	text-align: left;
+	padding: 40px;
 }
 
 .bottomcenter {
@@ -124,20 +129,24 @@ nav {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	text-align: center;
 }
 
 a {
-	float: left;
+	float: none;
 	display: inline-block;
 	padding: 10px;
-	margin: 20px;
+	margin: 35px;
+	color: lightgray;
 }
 
 footer {
 	text-align: center;	
+	
 }
 
 address {
 	border-top: 2px solid black;
 	padding: 10px;
+	padding:40px;
 }
